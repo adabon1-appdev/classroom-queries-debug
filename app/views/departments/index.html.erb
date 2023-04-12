@@ -22,8 +22,8 @@
         <th>
         </th>
       </tr>
-<% if @list_of_department.present? %>
-      <% @list_of_department.each do |department| %>
+
+      <% @matching_departments.each do |department| %>
       <tr>
         <td>
           <%= department.id %>
@@ -40,7 +40,6 @@
         </td>
       </tr>
       <% end %>
-      <% end %> 
     </table>
   </div>
 </div>

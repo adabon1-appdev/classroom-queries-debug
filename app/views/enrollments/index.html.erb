@@ -51,10 +51,10 @@
         </td>
 
         <td>
-          <%= enrollment.created_at %>
+          <%= time_ago_in_words(enrollment.created_at) %> ago
         </td>
         <td>
-          <%= enrollment.updated_at %>
+          <%= time_ago_in_words(enrollment.updated_at) %> ago
         </td>
 
         <td>
